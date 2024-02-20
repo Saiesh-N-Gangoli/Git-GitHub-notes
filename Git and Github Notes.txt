@@ -2,12 +2,12 @@ Git: Git is an open source version control system which allows us to access the 
 changes that has happend in the system. This can be simply understood by telling that Git is like your bank account which 
 consists of all the credits and debits that happen to your account and you can track all the details which are required. 
 
--------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 The main importance of Git is that you can track the history of the project and also collobarate in a project more 
 effectively.
 
--------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 Features:
 ---------
@@ -15,37 +15,41 @@ Features:
 2) Popular across the globe.
 3) Scalable as per the size of the project.
 
--------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 Github:
 -------
 Github is an open source community which helps developers to maintain their codes. Developers can save their codes in folders
 which is named as repositries and we can manage the code here. 
 
--------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 Git Configuration:
 ------------------
 1) git config --global user.name (your_user_name)
+--------------------------------------------------
 The first commond to run is setting up the user-name which is the username of the github account of the user.
 
 2) git config --global user.email (your_user_email)
+---------------------------------------------------
 The second commond to run is setting up the user-email which is the email-id in which the github account is created.
 
 3) git config --list
-This commond will help you to see the username and the email that has been set. If everything goes well then the config list 
-will show the username and email that are set initially.
+--------------------
+This commond will help you to see the username and the email that has been set. If everything goes well then the config list will show the username and email that are set initially.
 
--------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 Setting up git configuration in VS-code Editor:
 -----------------------------------------------
 1) git clone https://github.com/something/something.com.git
+-----------------------------------------------------------
 The first commond which we are going to learn here is the git clone commond. Using this commond developer can clone the 
 respository from the remote(GitHub) to the local(computer/laptop). Just run the git clone commond with the repository address 
 to clone any public repository.
 
 2) git status
+-------------
 The next commond which we can view is the git status which will tell us that in which state the git repository which is cloned
 is in. 
 
@@ -56,21 +60,24 @@ The git status are of 4 types:
 --> untracked: When you create new files in the repository it shows the status of UNTRACKED.
 
 3) git add
+----------
 The next commond is the git add commond. The git add commond will help in changing the status from modified to staged. 
 The staged status is just before the commit. 
 Syntax: git add filename.html [to stage a file called filename.html]
         git add .[This will stage all the files that are in modified stage]
 
 4) git commit
+-------------
 The git commit commond helps to commit the changes before pushing them to the remote repository. We can display a meaningful 
 message once we commit any changes..
 Syntax: git commit -m "some-message".
 
 5) git push origin main
+-----------------------
 The git push origin main is a commond which will help in pushing the changes to the remote repository. Origin simply means 
 here the copy of the repo which we have on our local machine and main means the branch on which we are commiting into.
 
--------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 The above where the steps in which we have seen how we can clone a repo and make changes in it. Now we will look how we can 
 start everything from local machine and then push them to the remote repo(github). This can be achieved using the init method.
@@ -131,11 +138,11 @@ git reset hash-code -> git reset hash-code will help us in reverting the commits
 git reset --hard hash-code -> This commond works same as the above commond but the difference is that this reverts the changes 
 from the code editor too.
 
--------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 Fork:
 -----
 A fork is a copy of a repository that allows you to make your own changes without impacting the original project. We can fork 
 any public repository and work on them. But accepting the changes made is all dependent on the owner of the repository.
 
--------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
