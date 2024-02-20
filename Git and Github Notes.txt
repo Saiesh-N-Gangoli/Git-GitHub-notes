@@ -56,7 +56,8 @@ The git status are of 4 types:
 --> untracked: When you create new files in the repository it shows the status of UNTRACKED.
 
 3) git add
-The next commond is the git add commond. The git add commond will help in changing the status from modified to staged. The staged status is just before the commit. 
+The next commond is the git add commond. The git add commond will help in changing the status from modified to staged. 
+The staged status is just before the commit. 
 Syntax: git add filename.html [to stage a file called filename.html]
         git add .[This will stage all the files that are in modified stage]
 
