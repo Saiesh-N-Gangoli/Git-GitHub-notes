@@ -36,7 +36,8 @@ The second commond to run is setting up the user-email which is the email-id in 
 
 3) git config --list
 --------------------
-This commond will help you to see the username and the email that has been set. If everything goes well then the config list will show the username and email that are set initially.
+This commond will help you to see the username and the email that has been set. If everything goes well then the config list will 
+show the username and email that are set initially.
 
 ----------------------------------------------------------------------------------------------------------------------------
 
